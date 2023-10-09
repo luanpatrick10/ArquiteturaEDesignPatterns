@@ -1,7 +1,8 @@
-﻿using ArquiteturaEDesignPatterns.Creational_Patterns.FactoryMethod.RefactoringGuru;
+﻿using ArquiteturaEDesignPatterns.Creational_Patterns.Builder.GuruRefactoring;
 
 Console.WriteLine("Design Pattens");
 Console.WriteLine();
 Console.WriteLine();
 //ApplicationConfigurator.StartApplicationAbstractFactoryGuru();
-ApplicationConfigurator.StartApplicationFactoryMethod();
+//ApplicationConfigurator.StartApplicationFactoryMethod();
+ApplicationConfigurator.StartApplicationBuilder();

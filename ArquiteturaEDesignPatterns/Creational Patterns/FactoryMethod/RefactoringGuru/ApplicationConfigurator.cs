@@ -14,6 +14,7 @@
             Dialog dialogCreator = GenerateDialogByType(applicationDictionaryOptions[Convert.ToInt32(Console.ReadLine())]);
             dialogCreator.Render();
         }
+
         private static void ShowApplicationDialogs()
         {
             for (int applicattionDialogsOptions = 0; applicattionDialogsOptions < applicationDictionaryOptions.Count; applicattionDialogsOptions++)
